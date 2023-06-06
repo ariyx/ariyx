@@ -21,7 +21,7 @@ class About extends Me
     public function getDailyKnowledge(): array
     {
         return [
-            Php::class,
+            PHP::class,
             Laravel::class,
             Vuejs::class,
             Golang::class
