@@ -25,11 +25,6 @@ class About extends Me
         ];
     }
 
-    public function getFutureGoal(): string
-    {
-        return 'To contribute to open source.';
-    }
-
     public function whoIsArix(): string
     {
         return 'Upgraded version of armin.';
