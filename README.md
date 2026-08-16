@@ -5,30 +5,30 @@ namespace Arix;
 
 class About extends Me
 {
-    public function getCurrentWorkplace(): array
+    public function getProfile(): array
     {
         return [
-            'workplace' => [
-                'company' => 'Webilo',
-                'position' => 'Founder'         
-            ]
+            'role' => 'Software Developer',
+            'education' => 'Computer Engineering Student',
         ];
     }
 
-    public function getDailyKnowledge(): array
+    public function getStack(): array
     {
         return [
             PHP::class,
             Laravel::class,
             Vuejs::class,
-            Golang::class
+            TypeScript::class,
+            Golang::class,
+            PostgreSQL::class,
+            Redis::class,
         ];
     }
 
     public function whoIsArix(): string
     {
-        return 'Upgraded version of armin.';
+        return 'Upgraded version of Armin.';
     }
 }
 ```
-
